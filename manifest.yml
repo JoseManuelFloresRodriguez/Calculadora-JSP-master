@@ -1,0 +1,9 @@
+applications:
+- path: dist/jsp.war
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: calcjsp
+  host: calcjsp
+  disk_quota: 1024M
+  buildpack: java_buildpack
